@@ -1,0 +1,192 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        background-image: unset !important;
+    }
+
+    .card-container {
+        justify-content: start !important;
+        padding-top: 2rem !important;
+        height: 100% !important;
+    }
+
+    .btn-class-custom {
+        font-size: 1.5rem;
+    }
+
+    .title-1 {
+        font-size: 2.5rem;
+    }
+
+    .title-4 {
+        font-size: 1.2rem;
+    }
+
+    .title-2,
+    .title-3,
+    .title-5 {
+        font-size: 1.7rem;
+    }
+
+    .row-btn {
+        margin-top: 30px;
+    }
+
+    .box-card {
+        margin-top: 20px;
+    }
+
+    .fa-reply {
+        font-size: 2rem;
+        position: absolute;
+        left: 20px;
+        top: -20px;
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        background-image: unset !important;
+    }
+
+    .fa-reply {
+        font-size: 2rem;
+        position: absolute;
+        left: 20px;
+        top: -30px;
+    }
+
+    .btn-class-custom {
+        font-size: 14px;
+        margin: 0 !important;
+    }
+
+    .box-card {
+        margin-top: 20px;
+    }
+
+    .box-card-content {
+        height: 110vh;
+    }
+
+    .title-1 {
+        font-size: 3.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .title-4 {
+        font-size: 1.2rem;
+    }
+
+    .title-2,
+    .title-3,
+    .title-5 {
+        font-size: 1.7rem;
+        margin-top: 1.2rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        background-image: unset !important;
+    }
+
+    .fa-reply {
+        font-size: 2rem;
+        position: absolute;
+        left: 20px;
+        top: -30px;
+    }
+
+    .box-card {
+        margin-top: 20px;
+    }
+
+    .btn-class-custom {
+        font-size: 14px;
+        margin: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .box-card-content {
+        height: 57vh;
+    }
+
+    .title-1 {
+        font-size: 5rem;
+    }
+
+    .title-4 {
+        font-size: 2.5rem;
+    }
+
+    .title-2,
+    .title-3,
+    .title-5 {
+        font-size: 3rem;
+        margin-top: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 667) and (orientation: landscape) {
+    .box-card-content {
+        height: 135vh;
+    }
+}
+
+
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+    .box-card-content {
+        height: 135vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        background-image: unset !important;
+    }
+
+    .fa-reply {
+        font-size: 3rem;
+        position: absolute;
+        left: 20px;
+        top: -30px;
+    }
+
+    .btn-class-custom {
+        font-size: 20px;
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+
+    .box-card-content {
+        height: 57vh;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) and (orientation: landscape) {
+    .box-card-content {
+        height: 80vh;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1919.98px) and (orientation: landscape) {
+    body {
+        background-image: unset !important;
+    }
+
+    .box-card-content {
+        height: 80vh;
+    }
+
+    .col-xl-6 {
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

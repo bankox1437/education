@@ -1,0 +1,75 @@
+/* main student */
+.row-custom {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.row-custom a:hover {
+}
+
+.col-border {
+  border: solid 1px #d7d7d9;
+  border-top: none;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.col-border:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-top: solid 1px #d7d7d9;
+}
+
+.col-border:nth-child(2) {
+  border-top-right-radius: 10px;
+  border-top: solid 1px #d7d7d9;
+}
+
+.col-border:nth-child(7) {
+  border-bottom-left-radius: 10px;
+}
+
+.col-border:nth-child(8) {
+  border-bottom-right-radius: 10px;
+}
+
+.col-border span {
+  font-size: 18px;
+}
+
+.col-border i {
+  font-size: 24px;
+}
+.col-border:nth-child(1):hover {
+  color: blue;
+  border: solid 1px blue;
+}
+
+.col-border:nth-child(2):hover {
+  color: #4caf52;
+  border: solid 1px #4caf52;
+}
+.col-border:nth-child(3):hover {
+  color: #9c28af;
+  border: solid 1px #9c28af;
+}
+.col-border:nth-child(4):hover {
+  color: #e50102;
+  border: solid 1px #e50102;
+}
+.col-border:nth-child(5):hover {
+  color: #fec009;
+  border: solid 1px #fec009;
+}
+.col-border:nth-child(6):hover {
+  color: #27c08a;
+  border: solid 1px #27c08a;
+}
+.col-border:nth-child(7):hover {
+  color: #eba33f;
+  border: solid 1px #eba33f;
+}
+.col-border:nth-child(8):hover {
+  color: #03a9f5;
+  border: solid 1px #03a9f5;
+}
+/* main student */

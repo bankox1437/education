@@ -1,0 +1,28 @@
+# เปิดใช้งาน mod_rewrite
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC]
+
+
+ErrorDocument 404 /404
+ErrorDocument 500 /500
+
+php_value upload_max_filesize 1024M
+php_value post_max_size 1024M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value max_input_vars 10000
+
+php_value error_reporting 0
+php_flag display_errors Off
+
+# ป้องกันการเข้าถึงไฟล์ .htaccess โดยตรง
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# ตั้งค่าเวลาและโซนเวลาให้เหมาะสม
+# แก้ไข "Asia/Bangkok" ตามโซนเวลาที่ต้องการ
+SetEnv TZ Asia/Bangkok

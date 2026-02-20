@@ -1,0 +1,6 @@
+<?php
+
+echo '
+<script>
+    location.href = "../404";
+</script>';

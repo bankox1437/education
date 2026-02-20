@@ -1,0 +1,9 @@
+/****************************/
+/** Imports Plugin css **/
+/****************************/
+@import url(../../assets/vendor_components/bootstrap/dist/css/bootstrap.css);
+@import url(../../assets/vendor_components/select2/dist/css/select2.min.css);
+@import url(../../assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css);
+@import url(../../assets/vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css);
+@import url(../../assets/vendor_components/bootstrap-select/dist/css/bootstrap-select.css);
+/*# sourceMappingURL=vendors_css.css.map */

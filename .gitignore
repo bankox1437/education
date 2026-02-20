@@ -1,0 +1,21 @@
+backups/
+# config/connect_database.php
+uploads/
+test.php
+upload.php
+audio.php
+# main_menu.php
+
+backup_database2.php
+backup_database copy.php
+
+images
+
+menu_am copy.php
+menu_kru copy.php
+menu_std copy.php
+menu_lib_copy.php
+
+speech-to-text.php
+
+scripts
